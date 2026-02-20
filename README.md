@@ -37,39 +37,47 @@ Choose one of the following methods:
 **HTTPS**
 ```bash
 git clone https://github.com/mahi-cyberaware/email-checker.git
+```
+**SSH**
 
-SSH
-
-bash
+```bash
 git clone git@github.com:mahi-cyberaware/email-checker.git
-GitHub CLI
+```
+**GitHub CLI**
 
-bash
+```bash
 gh repo clone mahi-cyberaware/email-checker
+```
 Then enter the project directory:
 
-bash
+```bash
 cd email-checker
-2. Set up a virtual environment (recommended)
-bash
+```
+**2. Set up a virtual environment (recommended)**
+```bash
 python3 -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
-3. Install dependencies
-bash
+```
+**3. Install dependencies**
+```bash
 pip install colorama
-Note: This tool uses holehe as the scanning engine. If holehe is not already installed, install it with:
+```
+**Note: This tool uses holehe as the scanning engine. If holehe is not already installed, install it with:**
 
-bash
+```bash
 sudo apt install holehe          # Kali / Debian / Ubuntu
+```
 # or
+```
 pipx install holehe              # Alternative (recommended)
-
+````
 
 ##🎯 Usage
 Run the script with an email address:
 
-bash
+```bash
 python checker.py your.email@example.com
+```
 Example output:
 
 text
@@ -86,10 +94,10 @@ NOT REGISTERED (118):
   ✗ ...
 Results are automatically saved in the records/ folder as JSON files with timestamps.
 
-##🤝 Contributing
+**🤝 Contributing**
 Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
 
-##📝 License
-MIT
+**📝 License**
+**MIT**
 
 <div align="center"> Made with ❤️ by <a href="https://github.com/mahi-cyberaware">MahiCyber</a> </div> ```
