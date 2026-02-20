@@ -1,24 +1,39 @@
-# Holehe Email Checker – Wrapper Project
+<div align="center">
 
-This project uses **Holehe** – a powerful email‑checking tool – to find out if an email is registered on 120+ websites and if it appears in known data breaches. Results are saved in the `records/` folder (ignored by Git).
+# MahiCyber Email Checker
 
-## Features
-- Leverages Holehe's reliable and up‑to‑date checks.
-- Colourful terminal output with categories (REGISTERED / NOT REGISTERED / UNKNOWN).
-- Data breach information included.
-- Results saved as JSON with timestamps.
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![GitHub issues](https://img.shields.io/github/issues/mahi-cyberaware/email-checker)
+![GitHub forks](https://img.shields.io/github/forks/mahi-cyberaware/email-checker)
+![GitHub stars](https://img.shields.io/github/stars/mahi-cyberaware/email-checker)
 
-## Requirements
-- Python 3.6+
-- `colorama` library (for coloured output)
-- **Holehe** installed on your system
+**A powerful email lookup tool built by Mahi**  
+Check if an email is registered on 120+ websites and find data breaches.
 
-## Setup
+![MahiCyber Email Checker Screenshot](imgec1.png)
 
-### 1. Install Holehe
+</div>
+
+---
+
+## 📌 Features
+
+- 🔍 **Scans 120+ websites** (social media, forums, e‑commerce, etc.)
+- 🚨 **Detects data breaches** (e.g., Adobe, LinkedIn, etc.)
+- 🎨 **Beautiful hacker‑style banner** with your branding
+- 💾 **Saves results** in JSON format inside `records/` folder
+- 🔒 **Secure** – your API key is stored in `.env` (ignored by Git)
+- 🐍 **Written in Python** – easy to modify and extend
+
+---
+
+## 🚀 Installation
+
+### 1. Clone the repository
+
 Choose one of the following methods:
 
-**On Kali / Debian / Ubuntu:**
+**HTTPS**
 ```bash
-sudo apt update
-sudo apt install holehe
+git clone https://github.com/mahi-cyberaware/email-checker.git
