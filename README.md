@@ -65,7 +65,7 @@ sudo apt install holehe          # Kali / Debian / Ubuntu
 pipx install holehe              # Alternative (recommended)
 
 
-🎯 Usage
+##🎯 Usage
 Run the script with an email address:
 
 bash
@@ -86,10 +86,10 @@ NOT REGISTERED (118):
   ✗ ...
 Results are automatically saved in the records/ folder as JSON files with timestamps.
 
-🤝 Contributing
+##🤝 Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
 
-📝 License
+##📝 License
 MIT
 
 <div align="center"> Made with ❤️ by <a href="https://github.com/mahi-cyberaware">MahiCyber</a> </div> ```
