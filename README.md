@@ -100,4 +100,4 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 **📝 License**
 **MIT**
 
-<div align="center"> Made with ❤️ by <a href="https://github.com/mahi-cyberaware">MahiCyber</a> </div> ```
+<div align="center"> Made with ❤️ by <a href="https://github.com/mahi-cyberaware">MahiCyber</a> </div> 
