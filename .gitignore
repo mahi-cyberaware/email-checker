@@ -1,0 +1,14 @@
+# Ignore the records folder (your personal results)
+/records/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment folder
+venv/
+.env/
+
+# Ignore IDE settings
+.vscode/
+.idea/
